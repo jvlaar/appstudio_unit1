@@ -40,7 +40,7 @@
                 app:srcCompat="@drawable/ears" />
 
             <ImageView
-                android:id="@+id/imageViewBrows"
+                android:id="@+id/imageViewEyebrows"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="invisible"
@@ -114,8 +114,9 @@
                     android:id="@+id/checkBoxBody"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Body"
-                    android:onClick="checkClicked" />
+                    android:checked="true"
+                    android:onClick="checkClicked"
+                    android:text="Body" />
 
                 <CheckBox
                     android:id="@+id/checkBoxArms"
@@ -144,6 +145,12 @@
                     android:layout_height="wrap_content"
                     android:text="Glasses"
                     android:onClick="checkClicked" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxEyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eyes" />
 
             </LinearLayout>
 

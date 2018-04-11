@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkBox = (CheckBox) v;
         String checkBoxName = checkBox.getText().toString();
 
-        ImageView image = (ImageView) findViewById(R.id.imageViewEyes);
 
-        ImageView image (ImageView) R.
+        ImageView image = (ImageView) findViewById(MainActivity.this.getResources()
+                .getIdentifier("imageView" + checkBoxName, "id", getBaseContext().getPackageName()));
 
         if (checkBox.isChecked()) {
             image.setVisibility(View.VISIBLE);
