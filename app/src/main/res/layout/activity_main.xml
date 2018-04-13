@@ -133,11 +133,11 @@
                     android:onClick="checkClicked" />
 
                 <CheckBox
-                    android:id="@+id/checkBoxBrows"
+                    android:id="@+id/checkBoxEyebrows"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eyebrows"
-                    android:onClick="checkClicked" />
+                    android:onClick="checkClicked"
+                    android:text="Eyebrows" />
 
                 <CheckBox
                     android:id="@+id/checkBoxGlasses"
